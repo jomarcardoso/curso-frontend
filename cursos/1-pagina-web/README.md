@@ -1,3 +1,5 @@
+# Aula 1 - Página Web
+
 Os arquivos possuem extensões, aquelas letras que vêm depois do "." nome deles. A extensão é como se fosse o idioma em que ele foi escrito. Um exemplo é o arquivo de vídeo `.avi` que não vai fazer muito sentido ser aberto no Paint, pois ele não entenderia as linguagens de vídeo, apenas as de imagens, como `.bmp`, `.jpg`, `.png`...
 
 ![image](https://user-images.githubusercontent.com/27368585/98619978-162e8480-22e3-11eb-968c-7fe33216fb82.png)
@@ -67,5 +69,7 @@ Para entender a linguagem HTML, pense naquela brincadeira da lingua do PE, "PEVO
 Esse exemplo que dei é a estrutura inicial de um arquivo `.html`, se colar ele no bloco de notas, salvar ele com o nome que quiser e ao final colocar `.html`, poderá abrir esse arquivo no navegador e tera aí o seu site.
 
 ---
+
+Coloquei os 2 exemplos na pasta exemplos aqui do curso 1.
 
 Por hoje é isso pessoal 😘
