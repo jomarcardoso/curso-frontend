@@ -97,6 +97,8 @@ Essa técnica chama-se aninhamento e serve para facilmente visualizarmos qual el
 
 Agora vou te passar uma lista de elementos para que uses para fazer o teu "textão" e mostrar para quem você quiser, essa pessoa provavelmente vai dizer "AH QUE LEGAL", mas estará na cara que achou uma bosta, mas mesmo assim faça, pois com isso irá praticar nas próximas páginas ver a sua evolução e de certa forma a da Web, pois como eu disse, foi mais ou menos assim que tudo começou.
 
+> Se estiver sem ideia de texto escreva sobre a maior empresa da sua cidade, parece bobo isso, mas eu gosto de fazer associações em meio ao aprendizado, aí de certa forma minha memória consegue achar melhor as coisas. Talvez funcione para ti.
+
 Os elementos a serem usados:
 
 - html
@@ -116,6 +118,8 @@ Eu sei que ainda não foi ensinado no curso todos esses elementos, mas boa parte
 
 - W3Schools, muito bom para quem ta começando, porém só em inglês
 - MDN, muito conteúdo
+
+> Ah, as 4 últimas tags são para criar uma tabela se estiver escrevendo sobre a empresa da tua cidade coloque ali alguns dados dela.
 
 ---
 
