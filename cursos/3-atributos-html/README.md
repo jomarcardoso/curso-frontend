@@ -78,9 +78,9 @@ Eu diria, "Vamos praticar", mas tenho uma surpresa para vocês. Repararam que te
 
 [Clique aqui para baixar o Visual Studio Code](https://code.visualstudio.com/download)
 
-De agora em diante vamos parar de ficar fazendo pequenas páginas feias e simples para nos focar em um projeto. É importante que você não se apegue ao código que vamos fazer ali, pois conforme formos evoluindo, vamos trocar o antigo por um mais moderno e adequado com as formas de trabalhar atuais.
+Criei uma pasta para ti aqui dentro do curso chamada "projeto-web", com um arquivo "inicial.html" para você começar. De agora em diante é ali que vamos trabalhar e evoluir.
 
-Crie uma pasta na em documentos ou na área de trabalho com o "projeto-web" ou o nome que preferir. De agora em diante é ali que vamos trabalhar e evoluir.
+> É importante que você não se apegue ao código que vamos fazer ali, pois conforme formos evoluindo, vamos trocar o antigo por um mais moderno e adequado com as formas de trabalhar atuais.
 
 Depois de instalado o Visual Studio Code(VS Code), abra ele, e vá ali no "open folder" ou "abrir pasta" se for em português. Escolha a pasta que você criou para o projeto.
 
