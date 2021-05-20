@@ -81,3 +81,5 @@ Esse exemplo que dei é a estrutura inicial de um arquivo `.html`, se colar ele 
 Coloquei os 2 exemplos na pasta exemplos aqui do curso 1.
 
 Por hoje é isso pessoal 😘
+
+**Abraço**
