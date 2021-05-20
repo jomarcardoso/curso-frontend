@@ -128,6 +128,6 @@ Eu sei que ainda não foi ensinado no curso todos esses elementos, mas boa parte
 
 ---
 
-Faça o tema de 🏠 e não te acanha, tem que praticar para fixar.
+Eu costumo deixar os exemplos na pasta acima chamada "exemplos" 🙄, as vezes tem coisa boa ali. Faça o tema de 🏠 e não te acanha, tem que praticar para fixar.
 
 **Abraço**
