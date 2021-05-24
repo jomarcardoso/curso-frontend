@@ -16,27 +16,27 @@ Quero explicar antes um conceito muito importante, tanto na Web como para qualqu
 </a>
 ```
 
-No caminho absoluto nós escrevemos exatamente onde algo está, nos exemplos acima eu coloquei tanto o `href` da âncora com a url ([ver definição de url](https://pt.wikipedia.org/wiki/URL)) do Google, como a imagem do logo deles no `src` da tag `<img>`. Como eu disse, o caminho absoluto é o caminho completo, isso quer dizer que não importa de onde eu esteja acessando, é para vir o mesmo conteúdo. Vamos testar, primeiro copie isso `https://www.google.com/`:
+No caminho absoluto nós escrevemos exatamente onde algo está, nos exemplos acima eu coloquei tanto o `href` da âncora `<a>` com a url [https://pt.wikipedia.org/wiki/URL](https://pt.wikipedia.org/wiki/URL) do Google, como a imagem do logo dele no `src` da tag `<img>`. Como eu disse, o caminho absoluto é o caminho completo, isso quer dizer que não importa de onde eu esteja acessando, é para vir o mesmo conteúdo. Vamos testar, primeiro copie isso `https://www.google.com/`:
 
-- aperte windows + R (o executar do windows), cole ali e execute: vai abrir o site do Google.
-- cole na barra do navegador: vai abrir o site do Google.
-- escreva em um documento de texto e depois aperte CTRL e clique nele: vai abrir o site do Google.
+- 1º teste: aperte windows + R (o executar do windows), cole ali e execute: vai abrir o site do Google.
+- 2º teste: cole na barra do navegador: vai abrir o site do Google.
+- 3º teste: escreva em um documento de texto (Word) e depois aperte CTRL e clique nele: vai abrir o site do Google.
 
 Não importa de onde seja o acesso, se estiver com internet ele vai para o caminho **absoluto** do Google. Agora vamos fazer algo legal com a imagem, então copie isso `https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png`:
 
-- cole na barra do navegador e aperte enter. Vai mostrar o logo do Google.
+- cole na barra do navegador e aperte enter... Espero que tenha feito, se não fez, faça... Fez??? Ta, viu a imagem do Google? Tem noção do poder disso? Agora sabe que pode pegar imagem de qualquer lugar e colocar nos teus sites, isso porque na internet todas imagens tem um "caminho absoluto".
 
 O caminho absoluto não serve só para a internet, dentro do próprio computador você pode pegar arquivos usando o caminho completo dele, por exemplo:
 
 - De novo "windows + R" e cole `C:\Windows\System32\drivers\etc\hosts`, abra com bloco de notas
 
-O arquivo que abrimos não importante no momento, nem acessar arquivos dessa forma no computador, só mostrei para todos terem uma noção bem certa do que é um caminho absoluto. É aquele caminho que escrevemos ele por completo, desde a sua raíz até o arquivo ou pasta desejado.
+O arquivo que abrimos não importante no momento, nem acessar arquivos dessa forma no computador, só mostrei para você ter a noção bem certa do que é um caminho absoluto. É aquele caminho que escrevemos ele por completo, desde a sua raíz até o arquivo ou pasta desejado.
 
 O **caminho relativo**, como o nome diz, é o quanto precisa ser percorrido apartir do ponto em que está. Para identificar um caminho relativo é bem simples, ele começa com `./` quando o local está no mesmo nível ou adiante do atual ou `../` quando se quer voltar. Cada `../` representa uma pasta que será voltada. Eu deixei um exemplo bem legal na pasta exemplos. Abra ela da forma que te ensinei no seu VS Code.
 
 Quero que olhe bem o código que coloquei ali, principalmente as tags de ânchora (`<a>`), como são os caminhos relativos delas. Abra no navegador o "inicial.html" e comece a navegar e comparar o código com o que está acontecendo no navegador.
 
-Apesar da simplicidade do exemplo, eu te garanto que é bem assim, na maioria dos casos, que um ecommerce funciona. Vamos simular um fluxo juntos com eu te explicando ele (por favor tenha fuçado nele antes, se não, não vai entender):
+Apesar da simplicidade do exemplo, eu te garanto que é bem assim, na maioria dos casos, que um site funciona. Vamos simular um fluxo juntos com eu te explicando ele (por favor tenha fuçado nele antes, se não, não vai entender):
 
 - estamos na página inicial, demos uma olhada no que tem nela e não nos interessamos e fomos para a página de categoria.
 - na página de categoria demos uma olhada e encontramos o que queríamos, o Produto 2, clicamos no nome ou na imagem dele que nos leva para a página dele.
