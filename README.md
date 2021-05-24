@@ -1,8 +1,17 @@
 # Curso para desenvolvedor de sites
 
-Olá, bem vindo ao melhor curso grátis para quem quer ser um programador de sites.
+Olá, bem vindo ao melhor curso grátis para quem quer ser um programador de sites. Espero que eu consiga te ensinar a fazer sites bem bonitos e úteis no menor tempo possível.
 
-Primeiramente quero te explicar sobre o método de ensino que será aplicado aqui. Lembra quando na aula o/a professor/a passavam algo para nós e perguntávamos, "mas para que vamos usar isso?", bom isso é um sinal que algo está errado, pois, ao meu ver, o aprendizado está muito mais no entender e correlacionar do que apenas decorar algo que não sabe se algum dia vai utilizar.
+Feito a propaganda, vou te resumir o que terá nesse curso:
+
+- Quero te mostrar do que é constituído um website, como ele funciona e que ferramentas os profissionais utilizam para fazê-lo.
+- Ensinar HTML, o código base de uma página.
+- Ensinar CSS, para deixar a página mais bonita e moderna.
+- Ensinar JavaScript, fazer mágica :stuck_out_tongue_winking_eye:.
+
+---
+
+Sobre o método de ensino que será aplicado aqui. Lembra quando na aula o/a professor/a passavam algo para nós e perguntávamos, "mas para que vamos usar isso?", bom isso é um sinal que algo está errado, pois, ao meu ver, o aprendizado está muito mais no entender e correlacionar do que apenas decorar algo que não sabe se algum dia vai utilizar.
 
 A forma de ensino será baseada em aprender algo e logo utilizar. Já quero adiantar que algumas coisas que vão aprender aqui são um pouco antiquadas, que não são mais tão utilizadas, outras, que é inevitável agora no começo, é que vocês aprenderão de uma forma mais simples do que como oficialmente se trabalha... Bom, não podem reclamar que esse curso não é sincero, falei umas boas verdades já. Os motivos de não aprender direto a forma como se trabalha hoje em dia é que:
 
