@@ -10,10 +10,14 @@ app.get('/', (req, res) =>{
 });
 
 app.post('/', urlencodedParser, (req, res) => {
+  const form = req.body;
+
+  console.log(form);
+
   res.send(`
-    <h3>Bem vindo, ${req.body.nome}</h3>
-    <br>recebemos o seu telefone: ${req.body.telefone}
-    <br>e seu email ${req.body.email},
+    <h3>Bem vindo, ${form.nome}</h3>
+    <br>recebemos o seu telefone: ${form.telefone}
+    <br>e seu email ${form.email},
     <br><br>mas não se preocupe, isso tudo está acontecendo em seu computador,ninguém ficará sabendo.
   `);
 });
