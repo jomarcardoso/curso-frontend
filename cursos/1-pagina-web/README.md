@@ -81,6 +81,13 @@ Para entender a linguagem HTML, pense naquela brincadeira da lingua do PE, "PEVO
 
 Esse exemplo que dei é a estrutura inicial de um arquivo `.html`, se colar ele no bloco de notas, salvar ele com o nome que quiser e ao final colocar `.html`, poderá abrir esse arquivo no navegador e tera aí o seu site.
 
+Explicando as duas tags que utilizei no exemplo:
+
+- `<html>` é padrão e sempre dentro dela que vai página Web.
+- `<body>` é a tag onde se coloca o conteúdo visível da página, os textos, as imagens, os botões...
+
+Basicamente todas as páginas possuem essas duas tags.
+
 ---
 
 Coloquei os 2 exemplos na pasta exemplos aqui do curso 1.
