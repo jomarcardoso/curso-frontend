@@ -14,29 +14,30 @@ Se fosse há algum tempo atrás a resposta seria maior, pois existiam ferramenta
 
 Posso ter levantado a dúvida de alguns, "mas e o Word? Ele é um editor de texto também...", bom, quase, ele é um processador de texto, a diferença dele para um editor é que você vê o resultado ao mesmo tempo que edita o documento. Vou tentar ser mais claro.
 
-No Word, simplificando o processo, você manda um comando como escrever uma letra, ele transforma isso na linguagem dele `.docx` e na mesma hora já te mostra a letra que você colocou.
-
-Processo de edição:
+No Word se você escrever um texto e colocar o estilo de título nele e depois trocar a cor dele para vermelho, na mesma hora você verá um título vermelho, isso porque o processo de edição do Word funciona da seguinte forma:
 
 1. usuário adiciona letra no Word
 2. a letra convertida para a linguagem `.docx` e salva
-3. `.docx` é interpretado na mesma hora para mostrar ao usuário como ficou
+3. `.docx` é interpretado na mesma hora para mostrar ao usuário como ficou.
 
-E quando for abrir um arquivo `.docx` só precisa fazer a última etapa. Processo de visualização:
-
-1. `.docx` é aberto no Word e interpretado para mostrar ao usuário.
+No Word você apenas é o usuário final, assim como um usuário da Web.
 
 ---
 
-Agora, no editor de texto o processo é mais <s>chato</s> simples, não temos mais a conversão e a interpretação na hora, então fica. Processo de edição:
+Agora, no editor de texto o processo é mais <s>chato</s> simples, não temos mais a conversão e a interpretação na hora, ou seja o processo se divide entre o profissional desenvolvedor e o usuário final.
 
-1. profissional escreve na linguagem `.html`.
+**Tarefa do desenvolvedor:**
 
-Reparem que não há mais uma conversão, logo, fica mais difícil de ser feito por leigos, pois precisam saber como se comunicar em HTML. A interpretação na hora também não existe no editor de texto.
+1. escrever o conteúdo na linguagem `.html`, por exemplo `<html>minha página</html>`;
+2. o profissional testa no seu navegador para ver o resultado.
 
-O processo de visualização é feito totalmente separado:
+Reparem que não há mais uma conversão, logo, fica mais difícil de ser feito por leigos, pois precisam saber como se comunicar em HTML, diferente do `.docx` que esconde isso de você.
 
-1. usuário abre um arquivo `.html` no seu navegador e este interpreta o arquivo.
+**Tarefa do usuário:**
+
+1. usuário abre um arquivo `.html` no seu navegador e este interpreta o arquivo para ele.
+
+Sim, por trás de cada página web tem um arquivo HTML e você, como usuário final, já abriu vários deles.
 
 ---
 
