@@ -47,6 +47,8 @@ Para entenderem como o Word interpreta na mesma hora, criei um arquivo `.html` u
 
 ![image](https://user-images.githubusercontent.com/27368585/98623024-99eb6f80-22e9-11eb-808a-0ee0c44a8709.png)
 
+---
+
 <br><br>
 
 E abriu igualzinho no navegador.
