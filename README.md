@@ -40,4 +40,4 @@ Segunda parte, que será preciso ser feito apenas uma vez, é baixar todo o mate
 
 Agora tens o que precisa para estudar, use o site para ler as aulas e o material baixado no computador para ir praticando. Bom, acho que não tem esquema, qualquer coisa manda um email.
 
-jomar.cardoso@cwi.com.br
+antonionetocardoso@gmail.com
