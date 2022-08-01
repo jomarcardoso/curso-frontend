@@ -8,7 +8,7 @@ Uma página da internet é um arquivo como os outros, que tem uma extensão que 
 
 ---
 
-Sabemos que para termos uma página na internet precisamos ter nosso arquivo `.html`... Indo pela lógica que um arquivo `.docx` ou `.docx` é gerado pelo Word, um arquivo `.ppt` ou `.pptx` é gerado pelo Power Point, onde que é gerado um arquivo HTML?
+Sabemos que para termos uma página na internet precisamos ter nosso arquivo `.html`... Indo pela lógica que um arquivo `.doc` ou `.docx` é gerado pelo Word, um arquivo `.ppt` ou `.pptx` é gerado pelo Power Point, onde que é gerado um arquivo HTML?
 
 Se fosse há algum tempo atrás a resposta seria maior, pois existiam ferramentas que criavam site de uma forma mais "prática", porém as coisas mudaram e agora "todo" site é feito com editores de texto. O editor de texto mais simples do mundo é o Bloco de Notas do Windows, mas não se preocupe, ninguém trabalha naquilo dali.
 
