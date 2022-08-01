@@ -10,7 +10,7 @@ Uma página da internet é um arquivo como os outros, que tem uma extensão que 
 
 Sabemos que para termos uma página na internet precisamos ter nosso arquivo `.html`... Indo pela lógica que um arquivo `.doc` ou `.docx` é gerado pelo Word, um arquivo `.ppt` ou `.pptx` é gerado pelo Power Point, onde que é gerado um arquivo HTML?
 
-Se fosse há algum tempo atrás a resposta seria maior, pois existiam ferramentas que criavam site de uma forma mais "prática", porém as coisas mudaram e agora "todo" site é feito com editores de texto. O editor de texto mais simples do mundo é o Bloco de Notas do Windows, mas não se preocupe, ninguém trabalha naquilo dali.
+Se fosse há algum tempo atrás a resposta seria maior, pois existiam ferramentas que criavam site de uma forma mais "prática", porém as coisas mudaram e agora "todo" site é feito com editores de texto. O editor de texto mais simples do mundo é o Bloco de Notas do Windows, mas não se preocupe, essa ferramenta só será utilizada nesse primeiro momento, mas depois passaremos para outro editor muito melhor 😉.
 
 Posso ter levantado a dúvida de alguns, "mas e o Word? Ele é um editor de texto também...", bom, quase, ele é um processador de texto, a diferença dele para um editor é que você vê o resultado ao mesmo tempo que edita o documento. Vou tentar ser mais claro.
 
@@ -32,9 +32,9 @@ Agora, no editor de texto o processo é mais <s>chato</s> simples, não temos ma
 
 1. profissional escreve na linguagem `.html`.
 
-Reparem que não há mais uma conversão, logo fica mais difícil de ser feitos por leigos, pois precisam saber como se comunicar em HTML. A interpretação na hora também não existe no editor de texto.
+Reparem que não há mais uma conversão, logo, fica mais difícil de ser feito por leigos, pois precisam saber como se comunicar em HTML. A interpretação na hora também não existe no editor de texto.
 
-O processo de visualização e feito totalmente separo:
+O processo de visualização é feito totalmente separado:
 
 1. usuário abre um arquivo `.html` no seu navegador e este interpreta o arquivo.
 
@@ -42,7 +42,7 @@ O processo de visualização e feito totalmente separo:
 
 A vantagem dos arquivos `.docx` e `.html` é que o usuário não precisa conhecer a linguagem delas, pois tanto o Word como os navegadores fazem o papel de interpretar esses arquivos, porém a diferença crucial é para quem escreve (o programador), que no caso do HTML tem que ser alguém o conheça a linguagem.
 
-Só que para confundir um pouco eu fiz um arquivo `.html` no Word.
+Para entenderem como o Word interpreta na mesma hora, criei um arquivo `.html` usando ele:
 
 ![image](https://user-images.githubusercontent.com/27368585/98623024-99eb6f80-22e9-11eb-808a-0ee0c44a8709.png)
 
@@ -50,21 +50,21 @@ E abriu igualzinho no navegador.
 
 ![image](https://user-images.githubusercontent.com/27368585/98623147-d5863980-22e9-11eb-8f98-8e0cb646b58c.png)
 
-Como o word trabalha dessa forma de mostrar no mesmo momento o resultado final, temos uma prévia boa do site como vai ficar. Aí você pode estar se perguntando, "Mas por que eu usaria um editor de texto, onde eu teria que aprendar uma linguagem e só veria o resultado depois que eu salvasse e fosse lá no navegador?". A resposta mais simples é: Controle. Editar um arquivo na sua forma original te da muito mais controle, você pode fazer coisas como:
+Como o word trabalha dessa forma de mostrar no mesmo momento o resultado final, temos uma prévia boa do site como vai ficar. Aí você pode estar se perguntando, "Mas por que eu usaria um editor de texto, onde eu teria que aprendar uma linguagem e só veria o resultado depois que eu salvasse e fosse lá no navegador?". A resposta mais simples é: **Controle**. Editar um arquivo na sua forma original te da muito mais controle, você pode fazer coisas como:
 
 - prever a aparência baseado no tamanho da tela
 - reaproveitar estilos, por exemplo de um botão que tem sua aparência igual em vários lugares
 - ser muito específico e preciso quanto a tamanhos, espaçamentos...
 
-> Agora antes de continuar vá lá no Bloco de nota, escreva qualquer coisa nele e salve o arquivo com `.html`, depois abra esse arquivo no navegador. Só para não esquecer o que foi falado até aqui.
+> Agora, antes de continuar vá lá no Bloco de Notas, escreva qualquer coisa nele e salve o arquivo com `.html`, depois abra esse arquivo no navegador. Só para não esquecer o que foi falado até aqui.
 
-Para entender a linguagem HTML, pense naquela brincadeira da lingua do PE, "PEVO PECÊ PESA PEBE PELIN PEGUA PEDO PEPE?", com a diferença é que o HTML tudo que for escrever não coloca o PE e sim uma `<tag>`, a tag html é o que identifica o conteúdo. Assim como no word que temos títulos, parágrafos, imagens... e ele salva isso com alguma identificação, no HTML temos os mesmo elementos identificados por tags:
+Para entender a linguagem HTML, pense naquela brincadeira da lingua do PE, "PEVO PECÊ PESA PEBE PELIN PEGUA PEDO PEPE?", com a diferença é que o HTML tudo que for escrever não coloca o PE e sim uma `<tag>`, a tag HTML é o que identifica o conteúdo. Assim como no word que temos títulos, parágrafos, imagens... e ele salva isso com alguma identificação, no HTML temos os mesmo elementos identificados por tags:
 
 - `<p>`Parágrafo`</p>`
 - `<img src="imagem.png">` (imagem)
 - ## `<h1>`Título`</h1>`
 
-É um pouco estranho no começo, mas vai se acostumar em colocar tudo entre tags, inclusive tags dentro de tags.
+É um pouco estranho no começo, mas vai se acostumar em colocar tudo entre tags, inclusive tags dentro de tags 😁.
 
 ```html
 <html>
