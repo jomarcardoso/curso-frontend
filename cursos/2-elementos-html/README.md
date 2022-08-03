@@ -126,14 +126,20 @@ Outra coisa, e talvez você tenha reparado que sempre que abrimos uma tag e ela 
 ```html
 <html>
   <body>
+    <img>
     <ul>
-      <li>Primeiro item da lista</li>
+      <li>primeiro item da lista</li>
+      <li>segundo item da lista</li>
     </ul>
   </body>
 </html>
 ```
 
-Essa técnica chama-se aninhamento e serve para facilmente visualizarmos qual elemento está dentro de qual. Em alguns exemplos anteriores quando tinha aquelas tags com auto fechamento, tipo `<img>`, não fiz o aninhamento, para deixar claro que o conteúdo não estava dentro, ou seja, não era filho da tag `img`.
+Essa técnica chama-se aninhamento ou "indentação" e serve para facilmente visualizarmos qual elemento está dentro de qual (quem é filho de quem). Entre as tags`<img>` e `<ul>`, eu não "aninhei", isso porque o `<img>` não é pai do `<ul>`, não é pai de ninguém, na verdade, pois é uma tag de "auto fechamento" ela acaba ali mesmo. O elemento `<ul>` inicia logo ao lado no mesmo nível, isso por que eles são? Eles são??? IRMÃOS. 
+  
+Os elementos irmãos possuem o mesmo "pai", no caso acima `<img>` e `<ul>` são filhos diretos de `<body>` e os irmãos `<li>` são filhos diretos de `<ul>`.
+  
+> Eu falei filho "direto", pois em HTML tudo que está dentro de um "elemento HTML" é um filho, ou seja, `<html>` é pai de `<body>`, `<img>`, `<ul>`, `<li>`, mas diretamente é apenas pai do "body".
 
 ---
 
@@ -141,7 +147,7 @@ Agora vou te passar uma lista de elementos para que uses para fazer o teu "text�
 
 > Se estiver sem ideia de texto escreva sobre a maior empresa da sua cidade, parece bobo isso, mas eu gosto de fazer associações em meio ao aprendizado, aí de certa forma minha memória consegue achar melhor as coisas. Talvez funcione para ti.
 
-Os elementos a serem usados:
+Os elementos a serem usados (e antes que me pergunte para que servem leia abaixo)
 
 - html
 - body
@@ -157,12 +163,12 @@ Os elementos a serem usados:
 - th
 - td
 
-Eu sei que ainda não foi ensinado no curso todos esses elementos, mas boa parte do conhecimento virá de pesquisa e acho que esse é um bom momento de começar. Para fazer isso usamos o de sempre, o Google, ou o Bing, sei lá, aí digamos que queremos saber o que é a tag "hr". Para pesquisar botamos na busca: _html hr tag_ e nos primeiro resultados irá aparecer os melhores sites para isso:
+Eu sei que ainda não foi ensinado no curso todos esses elementos, mas boa parte do conhecimento virá de pesquisa e acho que esse é um bom momento de começar 😎. Para fazer isso usamos o de sempre, o Google, ou o Bing, sei lá, aí digamos que queremos saber o que é a tag "hr". Para pesquisar botamos na busca: _html hr tag_ e nos primeiro resultados irá aparecer os melhores sites para isso:
 
 - W3Schools, muito bom para quem ta começando, porém só em inglês
-- MDN, muito conteúdo
+- MDN, muito conteúdo também, mas não tão didático
 
-> Ah, as 5 últimas tags são para criar uma tabela se estiver escrevendo sobre a empresa da tua cidade coloque ali alguns dados dela. Ali sim é muito importante você saber como faz o "aninhamento", lembra? Elemento filho ter um recuo do elemento pai. Para facilitar tua vida olha aqui no [link do w3school mostrando como monta uma tabela](https://www.w3schools.com/tags/tag_caption.asp#:~:text=The%20tag%20defines%20a,align%20and%20place%20the%20caption.). W3Schools é um site ótimo, foi ali que comecei meus estudos e provavelmente quero trazer mais vezes conteúdos dele aqui.
+> Ah, as 5 últimas tags são para criar uma tabela se estiver escrevendo sobre a empresa da tua cidade coloque ali alguns dados dela. Ali sim é muito importante você saber como faz o "aninhamento", lembra? Elemento filho ter um recuo do elemento pai. Para facilitar tua vida olha aqui no [link do w3school mostrando como monta uma tabela](https://www.w3schools.com/tags/tag_caption.asp#:~:text=The%20tag%20defines%20a,align%20and%20place%20the%20caption.). W3Schools é um site ótimo, foi ali que comecei meus estudos e provavelmente quero trazer mais vezes os conteúdos dele aqui.
 
 ---
 
