@@ -4,24 +4,52 @@ Já sabemos que uma página web é um arquivo HTML, escrito com qualquer nome e 
 
 Para a aula de hoje vamos aprender como é a escrita na linguagem HTML e conhecer algumas "palavras", também conhecidas como "Elementos HTML".
 
-Cada elemento HTML é indicado pela abertura e fechamento de uma Tag. A tag, que pela tradução significa "etiqueta", é aquela forma de escrita que colocamos `<nome do elemento HTML>` que indica onde começa o elemento (abertura), e `</nome do elemento HTML>`, que é onde acaba (/fechamento), então um elemento html é tanto as tags + todo conteúdo interno.
+Cada elemento HTML é indicado pela abertura e fechamento de uma Tag. A tag, que pela tradução significa "etiqueta", é aquela forma de escrita que colocamos `<nome do elemento HTML>` entre esses `<>` que indica onde começa o elemento (abertura), e `</nome do elemento HTML>`, que é onde acaba (/fechamento) entre `</>`.
 
 Perceba como é simples `<tag>conteúdo dentro da tag</tag>`. O `</` significa onde a tag fecha.
+
+- começo da tag `<tag>`
+- fim da tag `</tag>`
 
 ```html
 <h1>Título primário</h1>
 <button>Botão</button>
 ```
 
-Porém existem elementos que tem suas tags de "auto fechamento" que ao mesmo tempo que abrimos ela já será fechada, pois esses elementos não possuem conteúdo adicional. Alguns exemplos:
+No exemplo acima a tag "h1", que significa "título primário" (em inglês: heading 1), inicia com `<h1>`, mas não acaba ali, depois dela vem o seu conteúdo, "Título primário" e por fim vem o seu fechamento com `</h1>`. Isso tudo, abertura, conteúdo e fechamento é que constitui um elemento HTML.
+
+Neste exemplo abaixo coloquei cada abertura, conteúdo e fechamento em uma linha, veja, se fica claro.
 
 ```html
-<img> elemento de imagem tem apenas uma tag <br>
-elemento de quebra de linha também <input> a tag do campo de texto também tem
-auto fechamento
+<p>
+  Essa tag "p" é usada para parágrafos.
+</p>
 ```
 
-Viu? A tag iniciou, mas não tinha um fechamento depois, isso porque ela tinha autofechamento, ou seja, o conteúdo que vem depois não está "dentro" da tag. Usando as palavras certas o conteúdo não é "filho" daquele elemento.
+Tudo dentro do "p" é "parágrafo", tem as características de um parágrafo. Podemos dizer que encapsulamos o texto dentro de um "parágrafo", pois se pegarmos esse texto e colocar entre tags `<h1>`, torna-se um título. Isso que expliquei vai de acordo com o que é a linguagem HTML, uma linguagem de MARCAÇÃO, ou seja, você apenas "sinaliza" o que é cada conteúdo, com `<button>` você diz que tudo ali dentro pertence a um botão, com `<p>` você "sinaliza" que o seu conteúdo é um parágrafo.
+
+Mas, sempre tem um mas, toda regra tem exceção e existem elementos que tem suas tags de "auto fechamento" que ao mesmo tempo que abrimos ela já será fechada, pois esses elementos não possuem conteúdo adicional. Não tem um explicação muito lógica que eu possa dar para você saber quais são e quais não são com auto fechamento, então vou te passar algumas já de início para você saber e, infelizmente, decorar:
+
+- `<img>` tag de imagem
+- `<br>` tag de linha em branco
+- `<input>` tag de campos de texto (e outras coisas)
+
+Alguns exemplos de uso dessas tag de "auto fechamento"
+
+```html
+<img> elemento de imagem tem apenas uma tag
+<br> elemento de quebra de linha também
+<input> a tag do campo de texto também tem auto fechamento
+```
+
+Viu? A tag iniciou `<img>`, mas não tinha um fechamento depois <s>`</img>`</s>, isso porque ela tinha autofechamento, ou seja, o conteúdo que vem depois não está "dentro" da tag. Usando as palavras certas o conteúdo não é "filho" daquele elemento.
+
+> quer dar uma paradinha na leitura usar as tags `<h1>`, `<p>` e `<button>` naquele arquivo da aula passada? Não esqueça de algumas coisas:
+> 
+> - todo o conteúdo vai dentro das tags `<body> </body>` (filhos de body)
+> - as tags que indiquei usar agora não possuem auto fechamento, então não esquece da ordem "abertura, conteúdo, fechamento"
+
+---
 
 Outra coisa é que um elemento pode envolver outro(s). Aqui fica evidente o elemento "pai" e elementos "filhos".
 
