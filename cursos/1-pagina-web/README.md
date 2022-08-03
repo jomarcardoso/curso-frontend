@@ -4,7 +4,7 @@ Os arquivos possuem extensões, aquelas letras que vêm depois do "." no nome de
 
 ![image](https://user-images.githubusercontent.com/27368585/98619978-162e8480-22e3-11eb-968c-7fe33216fb82.png)
 
-Uma página da internet é um arquivo como os outros, que tem uma extensão que mostra que sua linguagem é HTML. Então para termos uma nossa página precisamos apenas criar um arquivo `.html` com qualquer nome. Assim: `jomar.html`, a forma mais fácil de criar um arquivo com qualquer extensão é com o Bloco de Notas do Windows, aí quando for salvar só excrever a extensão no final. Como foi mencionado o HTML é uma linguagem, assim como as outras que já foram mostradas, e quem interpreta esses arquivos são os navegadores, `Chrome`, `Internet Explorer`, `Firefox`, `Edge`...
+Uma página da internet é um arquivo como os outros, que tem uma extensão que mostra que sua linguagem é HTML. Então para termos uma nossa página precisamos apenas criar um arquivo `.html` com qualquer nome. Assim: `jomar.html`, a forma mais fácil de criar um arquivo com qualquer extensão é com o Bloco de Notas do Windows, aí quando for salvar só excrever a extensão no final do nome do arquivo. Como foi mencionado o HTML é uma linguagem, assim como as outras que já foram mostradas, e quem interpreta esses arquivos são os navegadores, `Chrome`, `Internet Explorer`, `Firefox`, `Edge`...
 
 ---
 
@@ -79,14 +79,31 @@ Para entender a linguagem HTML, pense naquela brincadeira da lingua do PE, "PEVO
 </html>
 ```
 
-Esse exemplo que dei é a estrutura inicial de um arquivo `.html`, se colar ele no bloco de notas, salvar ele com o nome que quiser e ao final colocar `.html`, poderá abrir esse arquivo no navegador e tera aí o seu site.
-
-Explicando as duas tags que utilizei no exemplo:
+Esse exemplo que dei é uma estrutura inicial de um arquivo `.html` e as duas tags que utilizei são:
 
 - `<html>` é padrão e sempre dentro dela que vai página Web.
 - `<body>` é a tag onde se coloca o conteúdo visível da página, os textos, as imagens, os botões...
 
 Basicamente todas as páginas possuem essas duas tags.
+
+Agora vamos aproveitar esse código HTML e fazer o nosso arquivo `.html`, para isso:
+
+1. Abra o Bloco de Notas;
+2. Copie o html acima para dentro dele;
+3. Salve em um arquivo com o nome que quiser mas no final do nome coloque `.html` (ignora o .txt que aparece abaixo na hora de salvar);
+4. Vá até esse arquivo salvo (espero que esteja na área de trabalho) e abra ele, se tudo der certo ele vai abrir no seu navegador.
+
+Pronto, "havemos site". Isso é uma página web, simples? sim, mas é uma página.
+
+Agora digamos que você desligou o computador e ligou de novo e quer continuar mexendo no seu site "super site", basta:
+
+1. Clicar com o botão direito no arquivo que você salvou;
+2. Clicar em abrir com;
+3. Escolher "escolher outro aplicativo" e encontrar o bloco de notas ali.
+
+Processinho chato para reabrir, isso porque o site abre por padrão com o seu navegador de preferência, o que faz todo sentido.
+
+> Ah e esqueci de avisar, se você alterar o arquivo `.html` precisa recarregar a página para ver as mudanças 😉
 
 ---
 
