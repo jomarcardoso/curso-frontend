@@ -49,22 +49,32 @@ Viu? A tag iniciou `<img>`, mas não tinha um fechamento depois <s>`</img>`</s>,
 > - todo o conteúdo vai dentro das tags `<body> </body>` (filhos de body)
 > - as tags que indiquei usar agora não possuem auto fechamento, então não esquece da ordem "abertura, conteúdo, fechamento"
 
+<br/>
+  
 ---
+  
+<br/>
 
-Outra coisa é que um elemento pode envolver outro(s). Aqui fica evidente o elemento "pai" e elementos "filhos".
+Se você reparou bem no exemplo que passei na aula passada, um elemento HTML vai dentro de outro, ou seja um é "pai do outro", isso da para notar nos elementos:
 
 ```html
-<ul>
-  O elemento "ul" é utilizado para indicar uma lista
-</ul>
-<li>O "li" é um item de lista</li>
+<html>
+  <body>
+  </body>
+</html>
+```
 
-Uma lista com seus itens dentro.
+Em que o `<body></body>` está totalmente entre as tags de abertura e fechamento `<html></html>`. Olhe no exemplo abaixo como fica evidente o elemento "pai" e elementos "filhos" de uma lista.
+
+```html
+A tag "ul" significa lista desordenada (em inglês "unerdered list"). O "ul" é pai dos dois "li".
 
 <ul>
-  <li>Primeiro item da lista</li>
-  <li>Segundo item da lista</li>
+  <li>"li" significa item da lista (em inglês "list item")</li>
+  <li>aqui o segundo item da lista com abertura e fechamento de outra tag "li"</li>
 </ul>
+  
+a lista acaba com com o fechamento do "ul"
 ```
 
 Juntando as duas aulas já temos um bom "repertório", vamos escrever um pouco usando essas palavras. O exemplo abaixo pode ser copiado para o Bloco de Notas e salvo em um arquivo `.html` e ser visualizado no seu navegador de preferência.
