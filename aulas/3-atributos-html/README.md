@@ -110,25 +110,31 @@ O básico que você precisa saber dele:
 
 ![image](https://user-images.githubusercontent.com/27368585/99316475-34483780-2843-11eb-9718-1f623069312b.png)
 
----
+Como vê na imagem acima, o VS Code além de mostrar os arquivos e pastas na esquerda para você abrir e trabalhar, também mostra na barra superior os arquivos que já estão abertos e você pode ir alternando entre eles.
 
 ![image](https://user-images.githubusercontent.com/27368585/99316749-a3be2700-2843-11eb-8a8b-b1ebaa1f72b2.png)
 
+Essa segunda imagem mostra também como é fácil evoluir e organizar o projeto, para criar arquivos ou pastas novas basta clicar em um desses ícones indicados. Foi assim que criei o arquivo "index.html" no projeto.
+
 ---
+
+Tudo certo, tudo pronto?
 
 Para exercício de hoje crie uma página só com imagens e links, como se fosse uma página inicial que leva rapidamente para os sites que você mais precisa.
 
-O exemplo da imagem abaixo é do navegador Firefox, ele cria os sites baseado no que o usuário mais acessa. E é mais ou menos isso que vamos fazer.
+O exemplo da imagem abaixo é do navegador Firefox, ele cria uma página com os sites que o usuário mais acessa. E é mais ou menos isso que vamos fazer.
 
 ![image](https://user-images.githubusercontent.com/27368585/99317130-4676a580-2844-11eb-98eb-16cedc09a9b1.png)
 
-Como sabemos um elemento HTML pode ficar dentro de outro, então para que as imagens levem para um site coloque a tag de imagem (img) deve estar dentro de um elemento âncora(a). Assim:
+Como sabemos um elemento HTML pode ficar dentro de outro, então para que as imagens levem para um site coloque a tag de imagem (img) deve estar dentro de um elemento de link (a). Assim:
 
 ```html
 <a href="url do site">
   <img src="imagem do site" />
 </a>
 ```
+
+Antes eu tinha dito que o conteúdo do link é o chamariz para a pessoa clicar... E sim esse conteúdo pode ser uma imagem que é tão usado quanto texto.
 
 Se quiser vou começar pra ti, ai é só continuar. Pode pegar esse conteúdo aqui e colar por cima do que tem lá no `inicial.html`. Aí o resto você já sabe.
 
@@ -144,6 +150,10 @@ Se quiser vou começar pra ti, ai é só continuar. Pode pegar esse conteúdo aq
   </body>
 </html>
 ```
+
+> **Curiosidade:** Você deve estar conformado que a tag de imagem se chama "img", mas a de link ser "a"... Estranho né? Essa tag `<a>` é abreviação de "anchor", do inglês "âncora", nesse caso, tag de ancoragem. Não existe uma explicação boa para esse nome, talvez em inglês faça mais sentido.
+
+Por hoje é isso.
 
 Bons estudos e te vejo na próxima aula.
 
