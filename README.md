@@ -26,7 +26,7 @@ Bora ao que interessa
 
 Você deve estar vendo essa página no link [https://github.com/jomarcardoso/curso-frontend](https://github.com/jomarcardoso/curso-frontend), se não, vai para esse link que te explico como iremos proceder.
 
-Primeira coisa, será aqui mesmo que tu irás ler cada aula. Ali na pasta cursos, mostrada na imagem abaixo é que terão as aulas
+Primeira coisa, será aqui mesmo que tu irás ler cada aula. Ali na pasta aulas, mostrada na imagem abaixo é que terão as aulas
 
 ![image](https://user-images.githubusercontent.com/27368585/102443222-f6d2f780-4004-11eb-9feb-86e17fb67f1a.png)
 

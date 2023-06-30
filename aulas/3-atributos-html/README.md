@@ -1,8 +1,8 @@
 # Aula 3 - Atributos HTML
 
-> Não sei o que tu estás achando desse material. Se achas que ta indo muito devagar e está muito repetivo, desculpa por isso, mas o material deve ser "auto explicativo", então antes de avançar eu preciso ter total certeza que você entendeu tudo, pois muitas vezes não haverá alguém ao lado para te tirar as dúvidas. Para os que já estão com dúvidas só mandar um email para `jomar.cardoso@cwi.com.br` que farei o ajuste o mais rápido possível para que tudo fique claro para ti e para os próximos que passarem por aqui.
+> Não sei o que tu estás achando desse material. Se achas que ta indo muito devagar e está muito repetivo, desculpa por isso, mas o material deve ser "auto explicativo", então antes de avançar eu preciso ter total certeza que você entendeu tudo, pois muitas vezes não haverá alguém ao lado para te tirar as dúvidas. Para os que já estão com dúvidas só mandar um email para `antonionetocardoso@gmail.com` que farei o ajuste o mais rápido possível para que tudo fique claro para ti e para os próximos que passarem por aqui.
 
-Voltando a aula... Hoje, como eu queria te ensinar a montar um layout de uma página ou então mostar como "navegar" de uma página para outra, mas para isso ainda precisamos de uma última coisa, saber o que são Atributos HTML.
+Para a aula de hoje eu quero te ensinar a colocar conteúdos "não textuais", ou seja vamos além daqueles textinhos simples, vamos botar imagens e começar a fazer a "navegação". Para que possamos fazer primeiro eu preciso de ensinar o que são Atributos HTML.
 
 ---
 
@@ -27,9 +27,9 @@ Te assustei? Espero que não. Hoje vamos aprender apenas alguns atributos só pa
 
 O elemento de image, sinalizado pela tag `<img>` não faz nada sem o seu atributo `src`, significa "source" (traduzindo: fonte) que diz o lugar onde está a imagem, a "fonte", a "origem" dela.
 
-Suponho que agora você tenha algumas dessas duas dúvidas:
+Agora, suponhamos que você tenha algumas dessas duas dúvidas:
 
-1. Como saber que atributos existem? Bom, como mencionado, HTML é uma linguagem, então será preciso pesquisar/estudar ela.
+1. Como saber que atributos existem? Bom, como mencionado, HTML é uma linguagem, então será preciso pesquisar/estudar ela para entender o seu vocabulário. Geralmente "dá um Google" pelo nome da tag, tipo assim "html tag img" e nos primeiros resultados já vai ter exemplos de uso e os atributos mais usados.
 2. Como saber o local da imagem? Essa informação pode ser um pouco avançada em alguns casos, então para começar eu mando o caminho das imagens e você só usa, pode ser?
 
 Só para ter certeza, lembra da estrutura inicial de uma página HTML? Espero que sim, é chato ficar repetindo 😜.
@@ -40,7 +40,7 @@ Só para ter certeza, lembra da estrutura inicial de uma página HTML? Espero qu
 </html>
 ```
 
-Ali no elemnto body coloque a tag de imagem `<img>` com o atributo `src`, vazio, assim:
+Ali no elemento body coloque a tag de imagem `<img>` com o atributo `src`, vazio, assim:
 
 ```html
 <html>
@@ -50,7 +50,7 @@ Ali no elemnto body coloque a tag de imagem `<img>` com o atributo `src`, vazio,
 </html>
 ```
 
-Agora só botar a fonte da imagem ali no valor do atributo. Sugiro essa daqui `https://images-na.ssl-images-amazon.com/images/I/51pG5REYl+L._SX378_BO1,204,203,200_.jpg`.
+Agora só botar a fonte da imagem ali no valor do atributo. Sugiro essa daqui `https://images-na.ssl-images-amazon.com/images/I/51pG5REYl+L._SX378_BO1,204,203,200_.jpg`. Lembra que a fonte da imagem é de onde ela virá e também que a tag de imagem não recebe texto dentro dela.
 
 ```html
 <html>
@@ -64,9 +64,9 @@ Agora só botar a fonte da imagem ali no valor do atributo. Sugiro essa daqui `h
 
 Pronto, temos a nossa página com uma imagem 😮.
 
-Um outro atributo necessário para nossos próximos passos é o atributo de href da tag `<a>`. O "a" é a âncora, nome estranho, nem vou tentar explicar o porquê dela, mas ela serve para nos levar para outros lugares, seja dentro ou fora da página. Por enquanto só o que nos interessa é fora da página, então vamos lá.
+Outro atributo necessário para nossos próximos passos é o atributo de `href` da tag `<a>`. A tag "a" serve para nos levar para outros lugares, seja dentro ou fora da página. Por enquanto só o que nos interessa é fora da página, então vamos lá.
 
-O atributo em que colocaremos o link da Âncora é o `href`, aí fica assim, o texto dentro do elemento é o "chamariz", é o que o usuário vai ver, já o href é o para onde eles serão levados.
+O atributo em que colocaremos o link é o `href`, aí fica assim, o texto dentro do elemento é o "chamariz", é o que o usuário vai ver, já o href é o para onde ele será levado se clicar no link.
 
 <html>
   <body>
@@ -74,15 +74,31 @@ O atributo em que colocaremos o link da Âncora é o `href`, aí fica assim, o t
   </body>
 </html>
 
+Diferente da tag `<img>` que só tem atributo, a tag `<a>` tem conteúdo também, então fique atento que vai sempre precisar do atributo `href` e um texto dentro da tag para o usuário entender do que se trata o link.
+
 ---
 
 Eu diria, "Vamos praticar", mas tenho uma surpresa para ti. Reparou que o texto de código que eu te mostro tem uma cor bonita e o que você faz no bloco de notas é preto e branco? Isso porque o bloco de notas é muito simples, não tem nenhum recurso legal, então antes de praticar vamos instalar um editor de texto melhor.
 
 [Clique aqui para baixar o Visual Studio Code](https://code.visualstudio.com/download)
 
-Criei uma pasta para ti aqui dentro do curso, na página inicial, chamada "projeto-web", com um arquivo dentro chamado "inicial.html" para você começar. De agora em diante é ali que vamos trabalhar e evoluir.
+Para baixar o correto é só clicar no botão maior abaixo de cada logotipo de sistema operacional.
 
-> É importante que você não se apegue ao código que vamos fazer, pois conforme formos evoluindo, vamos trocar o antigo por um mais moderno e adequado com as formas de trabalhar atuais.
+![image](https://github.com/jomarcardoso/curso-frontend/assets/27368585/19e58a51-8ce7-497d-9686-7c411819dbc3)
+
+Para instalar vai só avançando, a configuração padrão é boa.
+
+---
+
+Dessa parte da aula e para as próximas tu precisas ter baixado esse projeto no seu computador. Você pode [clicar aqui para baixar o projeto](https://github.com/jomarcardoso/curso-frontend/archive/refs/heads/master.zip) e extrair ele no seu computador ou [ir para página inicial](https://github.com/jomarcardoso/curso-frontend) e ler melhor sobre isso.
+
+Lembra que você entrou num link/pasta chamada aulas para chegar até aqui? Abaixo dela existe uma outra pasta chamada "projeto-web". Você pode chegar na [pasta projetos web clicando aqui](https://github.com/jomarcardoso/curso-frontend/tree/master/projeto-web), mas o que eu sugiro mesmo é chegar nessa pasta pelo seu computador.
+
+Repare que deixei dentro da pasta "projeto-web" um arquivo chamado "inicial.html" para você começar. De agora em diante é ali que vamos trabalhar e evoluir.
+
+> É importante que você não se apegue ao código que vamos fazer, pois conforme formos evoluindo, vamos trocar o antigo por um mais moderno e adequado com as formas de trabalhar mais atuais. Apagar e reescrever vai também fará parte do aprendizado, pois tu estarás praticando a escrita dessa nova linguagem. E bem sinceramente, pergunta para qualquer programador, se tu olhas o código da semana passada já vais achar ele horrível e querer fazer um melhor.
+
+---
 
 Depois de instalado o Visual Studio Code(VS Code para os íntimos), abra ele, e vá ali no "open folder" ou "abrir pasta" se for em português. Lembra que beeeeem no começo no arquivo de introdução eu te instruí a colocar a baixar esse conteúdo no seu computador? Certo, dentro dela ta a pasta "projeto-web" essa é a pasta que será aberta no VS Code.
 
