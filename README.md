@@ -38,6 +38,6 @@ Segunda parte, que será preciso ser feito apenas uma vez, é baixar todo o mate
 
 ![image](https://user-images.githubusercontent.com/27368585/102443428-81b3f200-4005-11eb-9675-8d4a824e5626.png)
 
-Agora tens o que precisa para estudar, use o site para ler as aulas e o material baixado no computador para ir praticando. Bom, acho que não tem esquema, qualquer coisa manda um email para [antonionetocardoso@gmail.com.](antonionetocardoso@gmail.com)
+Agora tens o que precisa para estudar, use o site para ler as aulas e o material baixado no computador para ir praticando. Bom, acho que não tem esquema, qualquer coisa manda um email para antonionetocardoso@gmail.com
 
 [Ir para aula 1](https://github.com/jomarcardoso/curso-frontend/tree/master/aulas/1-pagina-web)
