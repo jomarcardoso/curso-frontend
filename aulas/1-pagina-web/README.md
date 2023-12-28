@@ -1,3 +1,9 @@
+<!--
+  Os arquivos READEME.md não são abertos em leitores de texto convencionais,
+  por isso a leitura das aulas deve ser feita pelo site do GitHub.
+  Acesse https://github.com/jomarcardoso/curso-frontend/tree/master/aulas/1-pagina-web
+-->
+
 # Aula 1 - Página Web
 
 Os arquivos possuem extensões, aquelas letras que vêm depois do "." no nome deles. A extensão é como se fosse o idioma em que ele foi escrito. Um exemplo é o arquivo de vídeo `.avi` que não vai fazer muito sentido ser aberto no Paint, pois ele não entenderia as linguagens de vídeo, apenas as de imagens, como `.bmp`, `.jpg`, `.png`...

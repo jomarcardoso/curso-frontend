@@ -1,3 +1,9 @@
+<!--
+  Os arquivos READEME.md não são abertos em leitores de texto convencionais,
+  por isso a leitura das aulas deve ser feita pelo site do GitHub.
+  Acesse https://github.com/jomarcardoso/curso-frontend/tree/master/aulas/2-elementos-html
+-->
+
 # Aula 2 - Elementos HTML
 
 Já sabemos que uma página web é um arquivo HTML, escrito com qualquer nome e no final `.html`. Sabemos também que o HTML é uma linguagem e que se queremos trabalhar com o máximo de controle precisamos conhecê-la para saber lê-la e escrevê-la.
@@ -21,9 +27,7 @@ No exemplo acima a tag "h1", que significa "título primário" (em inglês: head
 Neste exemplo abaixo coloquei cada abertura, conteúdo e fechamento em uma linha, veja, se fica claro.
 
 ```html
-<p>
-  Essa tag "p" é usada para parágrafos.
-</p>
+<p>Essa tag "p" é usada para parágrafos.</p>
 ```
 
 Tudo dentro do "p" é "parágrafo", tem as características de um parágrafo. Podemos dizer que encapsulamos o texto dentro de um "parágrafo", pois se pegarmos esse texto e colocar entre tags `<h1>`, torna-se um título. Isso que expliquei vai de acordo com o que é a linguagem HTML, uma linguagem de MARCAÇÃO, ou seja, você apenas "sinaliza" o que é cada conteúdo, com `<button>` você diz que tudo ali dentro pertence a um botão, com `<p>` você "sinaliza" que o seu conteúdo é um parágrafo.
@@ -37,43 +41,45 @@ Mas, sempre tem um mas, toda regra tem exceção e existem elementos que tem sua
 Alguns exemplos de uso dessas tag de "auto fechamento"
 
 ```html
-<img> elemento de imagem tem apenas uma tag
-<br> elemento de quebra de linha também
-<input> a tag do campo de texto também tem auto fechamento
+<img /> elemento de imagem tem apenas uma tag <br />
+elemento de quebra de linha também <input /> a tag do campo de texto também tem
+auto fechamento
 ```
 
 Viu? A tag iniciou `<img>`, mas não tinha um fechamento depois <s>`</img>`</s>, isso porque ela tinha autofechamento, ou seja, o conteúdo que vem depois não está "dentro" da tag. Usando as palavras certas o conteúdo não é "filho" daquele elemento.
 
 > quer dar uma paradinha na leitura usar as tags `<h1>`, `<p>` e `<button>` naquele arquivo da aula passada? Não esqueça de algumas coisas:
-> 
+>
 > - todo o conteúdo vai dentro das tags `<body> </body>` (filhos de body)
 > - as tags que indiquei usar agora não possuem auto fechamento, então não esquece da ordem "abertura, conteúdo, fechamento"
 
 <br/>
-  
+
 ---
-  
+
 <br/>
 
 Se você reparou bem no exemplo que passei na aula passada, um elemento HTML vai dentro de outro, ou seja um é "pai do outro", isso da para notar nos elementos:
 
 ```html
 <html>
-  <body>
-  </body>
+  <body></body>
 </html>
 ```
 
 Em que o `<body></body>` está totalmente entre as tags de abertura e fechamento `<html></html>`. Olhe no exemplo abaixo como fica evidente o elemento "pai" e elementos "filhos" de uma lista.
 
 ```html
-A tag "ul" significa lista desordenada (em inglês "unerdered list"). O "ul" é pai dos dois "li".
+A tag "ul" significa lista desordenada (em inglês "unerdered list"). O "ul" é
+pai dos dois "li".
 
 <ul>
   <li>"li" significa item da lista (em inglês "list item")</li>
-  <li>aqui o segundo item da lista com abertura e fechamento de outra tag "li"</li>
+  <li>
+    aqui o segundo item da lista com abertura e fechamento de outra tag "li"
+  </li>
 </ul>
-  
+
 a lista acaba com com o fechamento do "ul"
 ```
 
@@ -126,7 +132,7 @@ Outra coisa, e talvez você tenha reparado que sempre que abrimos uma tag e ela 
 ```html
 <html>
   <body>
-    <img>
+    <img />
     <ul>
       <li>primeiro item da lista</li>
       <li>segundo item da lista</li>
@@ -135,10 +141,10 @@ Outra coisa, e talvez você tenha reparado que sempre que abrimos uma tag e ela 
 </html>
 ```
 
-Essa técnica chama-se aninhamento ou "indentação" e serve para facilmente visualizarmos qual elemento está dentro de qual (quem é filho de quem). Entre as tags`<img>` e `<ul>`, eu não "aninhei", isso porque o `<img>` não é pai do `<ul>`, não é pai de ninguém, na verdade, pois é uma tag de "auto fechamento" ela acaba ali mesmo. O elemento `<ul>` inicia logo ao lado no mesmo nível, isso por que eles são? Eles são??? IRMÃOS. 
-  
+Essa técnica chama-se aninhamento ou "indentação" e serve para facilmente visualizarmos qual elemento está dentro de qual (quem é filho de quem). Entre as tags`<img>` e `<ul>`, eu não "aninhei", isso porque o `<img>` não é pai do `<ul>`, não é pai de ninguém, na verdade, pois é uma tag de "auto fechamento" ela acaba ali mesmo. O elemento `<ul>` inicia logo ao lado no mesmo nível, isso por que eles são? Eles são??? IRMÃOS.
+
 Os elementos irmãos possuem o mesmo "pai", no caso acima `<img>` e `<ul>` são filhos diretos de `<body>` e os irmãos `<li>` são filhos diretos de `<ul>`.
-  
+
 > Eu falei filho "direto", pois em HTML tudo que está dentro de um "elemento HTML" é um filho, ou seja, `<html>` é pai de `<body>`, `<img>`, `<ul>`, `<li>`, mas diretamente é apenas pai do "body".
 
 ---

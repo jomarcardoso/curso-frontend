@@ -1,6 +1,6 @@
 # Aula 5 - Layout
 
-🥁🥁🥁 Chegou a hora, a partir dessa aula você será capaz de fazer um site idêntico aos da internet, de 1997 😁.
+🥁🥁🥁 Chegou a hora, a partir dessa aula você será capaz de fazer um site idêntico aos da internet... de 1997 😁
 
 > Tomei a decisão de separar essa aula de layout em duas partes, pensando que se a aula anterior ficou longa, essa daqui será maior, pelo fato de ter uma fase de planejamento que irá anteceder o desenvolvimento.
 
