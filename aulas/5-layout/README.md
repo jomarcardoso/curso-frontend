@@ -36,7 +36,7 @@ Pronto, agora que você já (sabe que eu sou velho por conhecer esses sites) fez
 
 ![image](https://user-images.githubusercontent.com/27368585/178623488-5452217f-6f50-49bb-8883-090d322fc465.png)
 
-Espero que não 😂, seria muita perda de tempo desenhar tantos retângulos. Por mais bobo que pareça é assim até hoje a organização de uma página Web. Quando comecei na área de programador front-end, tinha muita dificuldade de enxergar essas "caixas de conteúdo", mas foi quando resolvi que sempre antes de começar uma nova página eu iria fazer um planejamentos desses blocos, que eu aprendi e hoje não preciso mais disso, apenas "bato o olho" e consegui saber o que preciso para organizar o layout.
+Espero que não 😂, seria muita perda de tempo desenhar tantos retângulos. Por mais bobo que pareça é assim até hoje a organização de uma página Web. Quando comecei na área de programador front-end, tinha muita dificuldade de enxergar essas "caixas de conteúdo", mas foi quando resolvi que sempre antes de começar uma nova página eu iria fazer um planejamentos desses blocos, que eu aprendi e hoje não preciso mais disso, apenas "bato o olho" e consigo saber o que preciso para organizar o layout.
 
 ## O "bloco em linha"
 

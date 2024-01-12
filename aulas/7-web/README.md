@@ -1,4 +1,6 @@
-# Aula 7 - Como funciona a Web
+# Aula 7 - Como funciona a Web 🧑‍🏭
+
+Esta aula ainda não está pronta...
 
 ---
 

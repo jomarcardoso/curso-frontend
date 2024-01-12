@@ -10,7 +10,7 @@ Os arquivos possuem extensões, aquelas letras que vêm depois do "." no nome de
 
 ![image](https://user-images.githubusercontent.com/27368585/98619978-162e8480-22e3-11eb-968c-7fe33216fb82.png)
 
-Uma página da internet é um arquivo como os outros, que tem uma extensão que mostra que sua linguagem é HTML. Então para termos uma nossa página precisamos apenas criar um arquivo `.html` com qualquer nome. Assim: `jomar.html`, a forma mais fácil de criar um arquivo com qualquer extensão é com o Bloco de Notas do Windows, aí quando for salvar só excrever a extensão no final do nome do arquivo. Como foi mencionado o HTML é uma linguagem, assim como as outras que já foram mostradas, e quem interpreta esses arquivos são os navegadores, `Chrome`, `Internet Explorer`, `Firefox`, `Edge`...
+Uma página da internet é um arquivo como os outros, que tem uma extensão que mostra que sua linguagem é HTML. Então para termos uma nossa página precisamos apenas criar um arquivo `.html` com qualquer nome. Assim: `jomar.html`, a forma mais fácil de criar um arquivo com qualquer extensão é com o Bloco de Notas do Windows, aí quando for salvar, é só excrever a extensão no final do nome do arquivo. Como foi mencionado o HTML é uma linguagem, assim como as outras que já foram mostradas, e quem interpreta esses arquivos são os navegadores, `Chrome`, `Internet Explorer`, `Firefox`, `Edge`...
 
 ---
 
