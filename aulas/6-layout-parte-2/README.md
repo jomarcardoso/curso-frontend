@@ -52,7 +52,24 @@ Já pode começar como que você já sabe:
 
 Cada seção do layout nós trataremos como uma nova tabela, pois têm características que diferem das outras, como cor do fundo, bordas e espaçamentos. Assim as seções possui sua definição de quantas linhas e colunas precisa.
 
-Olhando para a primeira seção, vou começar analisando o grid e te dizer o que vejo. Vejo 3 colunas, onde a primeira e a última são só colunas vazias do mesmo tamanho para centralizar a coluna do meio que é onde vai o conteúdo. A coluna do meio já te adianto que tem 720px (explico abaixo sobre px) de largura.
+Olhando para a primeira seção, vou começar analisando o grid e te dizer o que vejo. Vejo 3 colunas, onde a primeira e a última são só colunas vazias do mesmo tamanho para centralizar a coluna do meio que é onde vai o conteúdo. Então temos as três colunas assim:
+
+ˋˋˋhtml
+<table>
+  <tr>
+    <td></td>
+
+    <td></td>
+
+    <td></td>
+  </tr>
+</table>
+ˋˋˋ
+
+Agora precisamos pensar nos tamanhos. A seção ocupa 100% da largura da página, já a coluna do meio, seguindo o layout tem 720px (explico abaixo sobre px) de largura. Para definirmos esses valores precisamos utilizar um outro atributo HTML chamado "width" que em inglês significa "largura". Há duas formas de utilizar ele:
+
+1. Passando só o valor, assim será aceito como píxel. ˋwidth="720"ˋ
+2. Escrevendo % no final para medidas percentuais. ˋwidth="50%"ˋ
 
 <details>
   <summary>saiba mais sobre píxels (px)</summary>
@@ -60,7 +77,31 @@ Olhando para a primeira seção, vou começar analisando o grid e te dizer o que
   Píxel é a unidade de medida mais comum na computação e em design digital. Em vários lugares vemos os píxels sendo mencionados e usados. Uma câmera de 32 megapíxels provavelmente (não sei muito disso) é uma câmera que captura 32 milhões de píxels em uma foto. Um sinal de TV HD das tvs digitais é de no mínimo 720px de altura. Um monitor full HD tem no mínimo 1080px de altura. São muitos exemplos de telas e elementos delas que são definidos em píxels.
 </details>
 
-Então temos as três colunas assim:
+ˋˋˋhtml
+<table width="100%">
+  <tr>
+    <td></td>
+
+    <td width="720"></td>
+
+    <td></td>
+  </tr>
+</table>
+ˋˋˋ
+
+
+
+ˋˋˋhtml
+<table bgcolor="#87695e" width="100%" cellspacing="20">
+  <tr>
+    <td></td>
+
+    <td width="720"></td>
+
+    <td></td>
+  </tr>
+</table>
+ˋˋˋ
 
 ˋˋˋhtml
 <table bgcolor="#87695e" width="100%" cellspacing="20">
