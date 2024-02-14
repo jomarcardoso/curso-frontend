@@ -59,7 +59,7 @@ Olhando para a primeira seção, vou começar analisando o grid e te dizer o que
   <tr>
     <td></td>
 
-    <td></td>
+    <td>Saúde em pontos</td>
 
     <td></td>
   </tr>
@@ -82,21 +82,51 @@ Agora precisamos pensar nos tamanhos. A seção ocupa 100% da largura da página
   <tr>
     <td></td>
 
-    <td width="720"></td>
+    <td width="720">Saúde em pontos</td>
 
     <td></td>
   </tr>
 </table>
 ˋˋˋ
 
+Outro atributo que vamos usar é o "bgcolor" que significa "background color", cor de fundo em português. Aí só passar a cor em algum formato, talvez isso de formatos seja um conceito novo também, então vou descrever abaixo se quiser ler. Se não, pode só usar o valor "#87695e" que estou te passando que é o marrom da cor de fundo da primeira seção.
 
+<details>
+  <summary>veja mais sobre formatos de cores</summary>
+
+  Vou te passar as três formas que mais importam agora no começo para você ir usando.
+
+  - **por nome:** Veja as cores por nome como chegar no loja de tintas e pedir por uma tinta que já está pronta, não haverá todas as cores, mas se tu não for muito exigente, talvez tenha uma que já te sirva.
+  A lista de cores predefinidas e nomeadas você pode [consultar no site do w3](https://www.w3schools.com/tags/ref_colornames.asp)
+  - **formato hexadecimal:** Sabe aquele conhecimento que parecia inútil no tempo de escola e você perguntava pra que vou usar isso? Pois bem, a contagem hexadecimal é usada nas cores no meio digital e é a mais comum até hoje, tanto que a cor que te passei para usar é nesse formato também. O formato hexadecimal se escreve começando com # e depois os pares de valores hexadecimais que vão de 0 até f. Ou seja 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, a, b, c, d, e, f. Não vou mais tanto no detalhe, se quiser saber mais [dê uma lida no site do w3 schools.](https://www.w3schools.com/css/css_colors_hex.asp)
+  - **formato RGB:** Se assemelha muito ao hexadecimal, porém os números são decimais e envolvido pelo texto "rgb()". Esse formato é usado no Paint do Windows. O azul em RGB é ˋrgb(0, 0, 255)ˋ, onde os primeiro zero é do R (red = vermelho), o segundo zero G (green = verde) e o último número 255 que é o valor máximo de azul.
+</details>
+
+ˋˋˋhtml
+<table bgcolor="#87695e" width="100%">
+  <tr>
+    <td></td>
+
+    <td width="720">Saúde em pontos</td>
+
+    <td></td>
+  </tr>
+</table>
+ˋˋˋ
+
+É tanto conceito que estou constrangido de te mostrar mais esse, mas precisamos para seguir. Uma coisa que não falei muito é sobre os espaçamentos e exitem 2 que são usados na web.
+
+1. **margin:** a margem são espaçamentos externos que usamos para separar um elemento de outro.
+2. **padding:** o preenchimento (todo mundo chama de padding) é o espaçemento interno, é muito usado quando queremos aumentar o tamanho dos elementos em tela.
+
+É justamente o padding que precisamos aqui, pois queremos dar uma "encorpada" na altura do header, nossa primeira seção. Se usássemos a margem o espaçamento externos não iria aumentar a altura do fundo marrom.
 
 ˋˋˋhtml
 <table bgcolor="#87695e" width="100%" cellspacing="20">
   <tr>
     <td></td>
 
-    <td width="720"></td>
+    <td width="720">Saúde em pontos</td>
 
     <td></td>
   </tr>
