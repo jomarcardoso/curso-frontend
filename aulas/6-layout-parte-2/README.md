@@ -49,3 +49,31 @@ Já pode começar como que você já sabe:
 1. rascunhar o grid
 2. criar o arquivo .html
 3. escrever a estrura básica
+
+Cada seção do layout nós trataremos como uma nova tabela, pois têm características que diferem das outras, como cor do fundo, bordas e espaçamentos. Assim as seções possui sua definição de quantas linhas e colunas precisa.
+
+Olhando para a primeira seção, vou começar analisando o grid e te dizer o que vejo. Vejo 3 colunas, onde a primeira e a última são só colunas vazias do mesmo tamanho para centralizar a coluna do meio que é onde vai o conteúdo. A coluna do meio já te adianto que tem 720px (explico abaixo sobre px) de largura.
+
+<details>
+  <summary>saiba mais sobre píxels (px)</summary>
+
+  Píxel é a unidade de medida mais comum na computação e em design digital. Em vários lugares vemos os píxels sendo mencionados e usados. Uma câmera de 32 megapíxels provavelmente (não sei muito disso) é uma câmera que captura 32 milhões de píxels em uma foto. Um sinal de TV HD das tvs digitais é de no mínimo 720px de altura. Um monitor full HD tem no mínimo 1080px de altura. São muitos exemplos de telas e elementos delas que são definidos em píxels.
+</details>
+
+Então temos as três colunas assim:
+
+ˋˋˋhtml
+<table bgcolor="#87695e" width="100%" cellspacing="20">
+  <tr>
+    <td></td>
+
+    <td width="720">
+      <h1>
+        <font color="white">Saúde em pontos</font>
+      </h1>
+    </td>
+
+    <td></td>
+  </tr>
+</table>
+ˋˋˋ
